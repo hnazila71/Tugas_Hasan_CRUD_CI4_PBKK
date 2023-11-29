@@ -1,0 +1,16 @@
+CRITICAL - 2023-11-29 16:28:39 --> Call to undefined method App\Models\Barang_model::saveBarang
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Barang.php(33): CodeIgniter\Model->__call('saveBarang', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tugas9\\codeigniter4-framework-a033985\\public\\index.php')
+CRITICAL - 2023-11-29 16:28:42 --> Call to undefined method App\Models\Barang_model::saveBarang
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Barang.php(33): CodeIgniter\Model->__call('saveBarang', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Barang->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tugas9\\codeigniter4-framework-a033985\\public\\index.php')
