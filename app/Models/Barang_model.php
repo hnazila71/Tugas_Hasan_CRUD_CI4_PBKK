@@ -20,7 +20,7 @@ class Barang_model extends Model
         $builder = $this->db->table($this->table);
         return $builder->insert($data);
     }
-
+    
     public function editBarang($data,$id)
     {
         $builder = $this->db->table($this->table);
